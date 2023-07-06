@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "industryblack";
+  src: url(/src/assets/fonts/Industry-Black.ttf);
+}
+
+@font-face {
+  font-family: "industrybook";
+  src: url(/src/assets/fonts/Industry-Book.ttf);
+}
+.hero-container {
+  text-align: center;
+  position: relative;
+  height: 100vh; /* Ocupa el 100% de la altura del viewport */
+  width: 100%; /* Ocupa el 100% del ancho del viewport */
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Estilos adicionales para el contenido del Hero */
+}
+
+.button-quote {
+  border-color: #fff;
+  color: #fff;
+  font-family: "industrybook";
+  border: solid 2px #fff;
+  box-sizing: border-box;
+  font-size: 27px;
+  padding: 20px 40px;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.hero-content h1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  font-family: "industryblack";
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .hero-content h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    font-family: "industryblack";
+    font-size: 99px;
+    line-height: 1;
+    font-weight: 400;
+  }
+  .button-quote {
+    font-size: 27px;
+    padding: 20px 40px;
+  }
+  .hero-arrow a {
+    margin: 0 auto;
+    display: block;
+    width: 38px;
+    height: 23px;
+    background: url(../assets/img/arrow-down.png) no-repeat left top;
+  }
+}
+.button-quote:hover {
+  color: #c8a605;
+  background: 0 0;
+  border-color: #c8a605;
+  outline: none;
+}

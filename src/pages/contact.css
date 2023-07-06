@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+  .contact-component {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-component {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-component {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact-component {
+    max-width: 540px;
+  }
+}
+
+.contact-component {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
