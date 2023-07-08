@@ -1,0 +1,125 @@
+.page-width {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .page-width {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .page-width {
+    max-width: 45rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .h0 {
+    font-size: 5.2rem;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+h1,
+.h0 {
+  font-family: Assistant, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.6rem;
+  color: rgb(18, 18, 18);
+  line-height: calc(1 + 0.3 / max (1, 1));
+  word-break: break-word;
+}
+
+h1,
+.h1 {
+  font-size: 3rem;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.quote-form {
+  margin: auto;
+  max-width: 839px;
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-top: 42px;
+  padding-bottom: 34px;
+}
+
+.form-label {
+  position: relative;
+  min-height: 1px;
+  margin-bottom: 22px; /* Agrega un espacio de 22px entre los inputs */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block; /* Asegura que las etiquetas se muestren en una línea separada */
+  font-size: 16px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 6px 12px;
+  background-color: #f4f4f4;
+}
+
+button {
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Asegura que el botón ocupe todo el ancho disponible */
+  font-weight: bold;
+}
+
+.button-submit {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.formulario-container {
+  margin: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding: 36px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

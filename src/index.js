@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout";
 
 import Home from "./pages/home";
+import GetQuote from "./pages/quote";
 import About from "./pages/about";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />} />
+            <Route path="/quote" element={<GetQuote />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
